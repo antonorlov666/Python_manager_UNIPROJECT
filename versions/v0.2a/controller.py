@@ -1,4 +1,4 @@
-from view import *
+rfrom view import *
 
 def start():
     start_dialogue()
@@ -10,7 +10,7 @@ def start():
     elif operation == 'help':
         help()
     else:
-        print('ТЫ ЧЕ ДУРАК ШОЛИ')
+        print('ERROR')
 
 
 def offline(): #функция
